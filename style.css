@@ -1,8 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .info {
   font-weight: 900;
-  font-size: 120px;
-  text-align: center;
+  font-size: 10vw;
+  font-family: "Caveat", cursive;
+  /* text-align: center; */
 }
 .page {
   background: #800000;
+}
+html,
+body {
+  height: 100%;
+}
+main {
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
